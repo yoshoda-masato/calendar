@@ -1,0 +1,38 @@
+PODS:
+  - CalculateCalendarLogic (0.3.0)
+  - FSCalendar (2.8.0)
+  - Realm (3.19.0):
+    - Realm/Headers (= 3.19.0)
+  - Realm/Headers (3.19.0)
+  - RealmSwift (3.19.0):
+    - Realm (= 3.19.0)
+
+DEPENDENCIES:
+  - CalculateCalendarLogic
+  - FSCalendar (from `https://github.com/WenchaoD/FSCalendar`)
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - CalculateCalendarLogic
+    - Realm
+    - RealmSwift
+
+EXTERNAL SOURCES:
+  FSCalendar:
+    :git: https://github.com/WenchaoD/FSCalendar
+
+CHECKOUT OPTIONS:
+  FSCalendar:
+    :commit: 473e88cb263609b50d9db2fd38912bc4d09d0e74
+    :git: https://github.com/WenchaoD/FSCalendar
+
+SPEC CHECKSUMS:
+  CalculateCalendarLogic: cd5b2c706a8628bb924c5ee9d05c4f61bdbaf390
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  Realm: 995d585bcf699aaff226715886c849a29dd3d07f
+  RealmSwift: 35f284a537989f2187b413e5917091948cb87a3f
+
+PODFILE CHECKSUM: ef00a2c2d70554fb742a39a3bc3520eabdd4e5c6
+
+COCOAPODS: 1.8.3
